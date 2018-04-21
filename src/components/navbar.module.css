@@ -1,0 +1,33 @@
+html{
+	background-color: #262233;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 8em 7em;
+	align-content: center;
+	padding-left: 2em;
+	padding-top: 2em;
+	grid-column-gap: 1.5em;
+	grid-template-rows: 3.6em;
+}
+
+
+.foot {
+	display: grid;
+	grid-template-columns: 1fr ;
+	align-items: end;
+	justify-content: center;
+	color: rgba(255,255,255,0.2);
+	font-size: 0.7em;
+	padding-left: 5em;
+	grid-gap: 1.5em;
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+.foot.logo {
+	display: none;
+}
+
+

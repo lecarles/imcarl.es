@@ -1,0 +1,122 @@
+:root {
+    --dark: #262233; 
+    --emph: #48D88D;
+}
+
+html{
+	background-color: var(--dark);
+	height: 100%;
+}
+
+::selection {
+  background: var(--emph);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 500ms;
+}
+
+a h3{
+	color: var(--emph);
+}
+
+a:hover {
+	color: var(--emph);
+}
+
+.svg-filters{
+	display: none;
+}
+
+.wrapper {
+	position: ;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: 1fr;
+	animation: fadein 2s;
+}
+
+.foot{
+	display: none;
+}
+
+.project {
+	color: white;
+	grid-row: 1;
+	grid-column: 6/10;
+	justify-self: end;
+	padding-top: 3em;
+}
+
+.picture  {
+	background: url("../img/visoren/visorenmain.png");
+	height: 780px;
+	width: 780px;
+	z-index: -2;
+	grid-row: 1;
+	grid-column: 2/-1;
+}
+
+.picture:hover {
+
+}
+
+
+h2 {
+
+	font-size: 5em;
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.bgline{
+	position: absolute;
+	z-index: -1;
+	top: 20%;
+	left: 25%;
+}
+
+.bgline:hover {
+
+}
+
+.str{
+	stroke: var(--emph);
+	stroke-width: 7.5;
+	fill: none;
+
+}
+
+.next{
+	grid-row: 1;
+	grid-column: 9;
+	justify-self: start;
+	align-self: end;
+
+}
+
+.next .str{
+	stroke-width: 6;
+}
+
+.page {
+	grid-row: 1;
+	grid-column: 8;
+	justify-self: end;
+	align-self: end;
+}
+
+.page .str{
+	stroke-width: 6;
+}
+
+
+
