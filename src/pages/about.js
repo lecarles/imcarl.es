@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Modal from 'react-modal';
 import styles from "./style.module.css";
 import ReactDOM from 'react-dom';
 import cami1 from "../img/visoren/shirt2.png";
