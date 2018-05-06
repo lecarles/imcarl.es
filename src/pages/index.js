@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./indexhi.module.css";
 import Link from 'gatsby-link';
-
+import PDF from  "../img/carles_pf.pdf";
 
 export default () => (
   <div className={styles.wrapper}>
@@ -20,7 +20,7 @@ export default () => (
 
       <p>I’m currently programming this personal page/portfolio, come back later to see how it turned out!</p>
 
-      <p>meanwhile you can check my <a href="../img/carles_pf.pdf">pdf portfolio</a>, visit <a href="https://www.behance.net/carles261298d3">my behance</a>> or email me at <a href="carles2612@gmail.com">carles2612@gmail.com</a></p>
+      <p>Meanwhile you can check my <a href="https://drive.google.com/file/d/1s0mYfYw5vZqFjCkmCJfi7idIEA41qG9A/view?usp=sharing">pdf portfolio</a>, visit <a href="https://www.behance.net/carles261298d3">my behance</a> or email me at <a href="mailto:carles2612@gmail.com">carles2612@gmail.com</a></p>
   	</div>
 
 
