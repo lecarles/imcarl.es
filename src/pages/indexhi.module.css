@@ -1,0 +1,105 @@
+:root {
+    --dark: #262233; 
+    --emph: #48D88D;
+}
+
+html{
+	background-color: var(--dark);
+	height: 100%;
+}
+
+::selection {
+  background: var(--emph);
+}
+
+a {
+	text-decoration: none;
+	transition: 500ms;
+	font-weight: 400;
+	color: var(--dark);
+}
+
+a h3{
+	color: var(--emph);
+}
+
+a:hover {
+	background-color: white;
+	color: var(--dark);
+	font-size: 1.1em;
+}
+
+mark {
+	background-color: var(--emph);
+	transition: 500ms;
+	font-size: 1em;
+}
+
+mark:hover {
+	font-size: 1.1em;
+}
+
+
+.wrapper {
+	display: grid;
+	grid-gap: 10vh;
+	grid-template-columns: 0.4fr 0.5fr 0.1fr;
+	grid-template-rows: 100vh;
+	animation: fadein 2s;
+}
+
+.project {
+	color: white;
+	grid-column: 2;
+	justify-self: center;
+	align-self: center;
+	grid-row: 1;
+}
+
+h2 {
+
+	font-size: 5em;
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.bgline{
+	z-index: 20;
+	grid-column: 2;
+	justify-self: center;
+	align-self: center;
+	grid-row: 1;
+	
+}
+
+
+.str{
+	stroke: var(--emph);
+	stroke-width: 7.5;
+	fill: none;
+
+}
+
+@media (max-width: 900px) { 
+
+.wrapper {
+	grid-template-columns: 1fr;
+	grid-template-rows: 100vh;
+	margin: 0em 3em;
+}
+
+.project {
+	grid-column: 1;
+}
+
+.bgline {
+	grid-column: 1;
+}
+
+}
+
