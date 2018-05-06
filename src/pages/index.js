@@ -20,7 +20,7 @@ export default () => (
 
       <p>I’m currently programming this personal page/portfolio, come back later to see how it turned out!</p>
 
-      <p>meanwhile you can check my <a href="../img/carles_pf.pdf">pdf portfolio</a>, visit my behance or email me at carles2612@gmail.com</p>
+      <p>meanwhile you can check my <a href="../img/carles_pf.pdf">pdf portfolio</a>, visit <a href="https://www.behance.net/carles261298d3">my behance</a>> or email me at <a href="carles2612@gmail.com">carles2612@gmail.com</a></p>
   	</div>
 
 
