@@ -20,7 +20,7 @@ export default () => (
 
       <p>I’m currently programming this personal page/portfolio, come back later to see how it turned out!</p>
 
-      <p>Meanwhile you can check out my <a href="https://drive.google.com/file/d/1s0mYfYw5vZqFjCkmCJfi7idIEA41qG9A/view?usp=sharing">pdf portfolio</a>, visit <a href="https://www.behance.net/carles261298d3">my behance</a> or email me at <a href="mailto:carles2612@gmail.com">carles2612@gmail.com</a></p>
+      <p>Meanwhile you can check out my <a href="https://drive.google.com/file/d/1s0mYfYw5vZqFjCkmCJfi7idIEA41qG9A/view?usp=sharing">pdf portfolio</a>, visit <a href="https://www.behance.net/carles261298d3">my behance</a> or email me at <a href="mailto:carles@kisd.de">carles@kisd.de</a></p>
   	</div>
 
 
